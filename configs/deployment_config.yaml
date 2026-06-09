@@ -1,0 +1,39 @@
+deployment:
+  local_first: true
+  cloud_ready_planning_only: true
+  actual_cloud_deployment: false
+  output_dir: "data/deployment_outputs/reports"
+  index_csv: "data/deployment_outputs/deployment_readiness_index.csv"
+  index_json: "data/deployment_outputs/deployment_readiness_index.json"
+
+environment:
+  required_python_version: "3.11"
+  required_backend: "FastAPI"
+  required_frontend: "Streamlit"
+  required_llm_runtime: "Ollama"
+  required_vector_store: "FAISS"
+  optional_vector_store: "ChromaDB"
+
+security:
+  require_env_file: true
+  prohibit_committed_secrets: true
+  require_local_only_default: true
+  require_no_paid_api_keys: true
+  require_no_openai_api: true
+
+readiness_checks:
+  check_backend_import: true
+  check_required_configs: true
+  check_required_directories: true
+  check_api_routes_registered: true
+  check_streamlit_pages_registered: true
+  check_data_indexes_exist: true
+  check_tests_available: true
+  check_docs_available: true
+
+enterprise_planning:
+  include_auth_plan: true
+  include_monitoring_plan: true
+  include_data_governance_plan: true
+  include_scaling_plan: true
+  include_failure_recovery_plan: true

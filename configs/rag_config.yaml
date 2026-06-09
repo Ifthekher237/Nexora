@@ -1,0 +1,30 @@
+rag:
+  default_top_k: 5
+  max_top_k: 10
+  min_retrieval_score: 0.25
+  require_citations: true
+  require_evidence_grounding: true
+  allow_answer_without_evidence: false
+  save_rag_outputs: true
+  response_output_dir: "data/rag_outputs/responses"
+  response_index_csv: "data/rag_outputs/rag_response_index.csv"
+  response_index_json: "data/rag_outputs/rag_response_index.json"
+
+llm:
+  runtime: "ollama"
+  default_model: "llama3.1:8b"
+  fallback_model: "mistral:7b"
+  temperature: 0.2
+  top_p: 0.9
+  max_tokens: 900
+
+prompting:
+  system_role: "You are Nexora, a financial evidence-grounded AI analyst assistant."
+  answer_style: "professional, concise, evidence-based"
+  include_limitations: true
+  include_confidence: true
+  include_sources: true
+
+retrieval:
+  default_vector_store: "faiss"
+  use_metadata_filters: true

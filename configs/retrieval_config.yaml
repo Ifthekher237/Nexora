@@ -1,0 +1,24 @@
+retrieval:
+  vector_store_root: "data/vector_store"
+  default_vector_store: "faiss"
+  enable_chroma: true
+  enable_faiss: true
+  top_k_default: 5
+  top_k_max: 20
+  similarity_metric: "cosine"
+  normalize_embeddings: true
+  batch_size: 32
+
+embedding:
+  default_model: "BAAI/bge-small-en-v1.5"
+  fallback_model: "hkunlp/instructor-base"
+  device: "auto"
+  local_first: true
+  cache_embeddings: true
+
+indexing:
+  chunks_dir: "data/processed/chunks"
+  processing_index_path: "data/processed/processing_metadata/processing_index.csv"
+  vector_metadata_csv: "data/vector_store/metadata/vector_index.csv"
+  vector_metadata_json: "data/vector_store/metadata/vector_index.json"
+  skip_existing_vectors: true

@@ -1,0 +1,36 @@
+agents:
+  enabled: true
+  default_top_k: 8
+  max_top_k: 12
+  save_agent_outputs: true
+  output_dir: "data/agent_outputs/runs"
+  index_csv: "data/agent_outputs/agent_run_index.csv"
+  index_json: "data/agent_outputs/agent_run_index.json"
+
+llm:
+  runtime: "ollama"
+  default_model: "llama3.1:8b"
+  fallback_model: "mistral:7b"
+  temperature: 0.2
+  top_p: 0.9
+  max_tokens_per_agent: 700
+  max_tokens_summary: 900
+
+enabled_agents:
+  - macroeconomic_agent
+  - company_analysis_agent
+  - sector_analysis_agent
+  - news_intelligence_agent
+  - risk_propagation_agent
+
+workflow:
+  run_agents_sequentially: true
+  allow_partial_results: true
+  require_evidence_for_findings: true
+  generate_collaboration_summary: true
+
+guardrails:
+  no_investment_advice: true
+  no_stock_prediction: true
+  require_limitations: true
+  require_evidence_references: true

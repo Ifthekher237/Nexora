@@ -1,0 +1,40 @@
+ingestion:
+  default_user_agent: "Nexora Financial Research Project contact: nexora.local@example.com"
+  storage_root: "data/raw"
+  metadata_root: "data/metadata"
+  request_timeout_seconds: 30
+  max_documents_per_run: 10
+
+sources:
+  sec:
+    enabled: true
+    base_url: "https://data.sec.gov"
+    company_ticker_url: "https://www.sec.gov/files/company_tickers.json"
+    archives_base_url: "https://www.sec.gov/Archives/edgar/data"
+    description: "SEC EDGAR public filing metadata and company submissions"
+
+  rss:
+    enabled: true
+    feeds:
+      - name: "Yahoo Finance"
+        url: "https://finance.yahoo.com/news/rssindex"
+      - name: "MarketWatch"
+        url: "https://feeds.marketwatch.com/marketwatch/topstories/"
+      - name: "Federal Reserve Press Releases"
+        url: "https://www.federalreserve.gov/feeds/press_all.xml"
+
+  macro:
+    enabled: true
+    mode: "local_csv_first"
+
+  asx:
+    enabled: true
+    mode: "module_ready_manual_or_future_live"
+
+  local_uploads:
+    enabled: true
+    allowed_extensions:
+      - ".pdf"
+      - ".txt"
+      - ".csv"
+      - ".md"

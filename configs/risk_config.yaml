@@ -1,0 +1,62 @@
+risk_scoring:
+  scale_min: 0
+  scale_max: 100
+  default_confidence_penalty_for_weak_evidence: 0.25
+  require_evidence: true
+  save_risk_outputs: true
+  output_dir: "data/risk_outputs/responses"
+  index_csv: "data/risk_outputs/risk_index.csv"
+  index_json: "data/risk_outputs/risk_index.json"
+
+risk_levels:
+  very_low:
+    min: 0
+    max: 20
+  low:
+    min: 21
+    max: 40
+  moderate:
+    min: 41
+    max: 60
+  high:
+    min: 61
+    max: 80
+  very_high:
+    min: 81
+    max: 100
+
+weights:
+  evidence_strength: 0.25
+  reasoning_confidence: 0.20
+  causal_chain_strength: 0.20
+  exposure_breadth: 0.15
+  macro_relevance: 0.10
+  source_diversity: 0.10
+
+minimums:
+  min_sources_for_medium_confidence: 2
+  min_average_retrieval_score: 0.25
+  min_supported_chain_steps: 2
+
+scenario_weight_adjustments:
+  oil_price_shock:
+    operational_exposure: 0.35
+    macro_exposure: 0.25
+    sector_exposure: 0.25
+    company_specific_exposure: 0.15
+  interest_rate_change:
+    macro_exposure: 0.35
+    debt_refinancing: 0.30
+    company_specific_exposure: 0.20
+    sector_exposure: 0.15
+  supply_chain_disruption:
+    operational_exposure: 0.40
+    sector_exposure: 0.30
+    company_specific_exposure: 0.20
+    macro_exposure: 0.10
+
+guardrails:
+  no_investment_advice: true
+  no_stock_prediction: true
+  require_limitations: true
+  require_evidence_references: true

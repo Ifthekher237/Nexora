@@ -1,0 +1,8 @@
+explainability_id,created_at,target_type,target_id,coverage_level,coverage_score,explainability_score,status,report_path,error_message
+EXPLAIN_20260608T164858Z0000_risk_f1cd2a0d,2026-06-08T16:48:58+00:00,risk,RISK_20260608T163140Z0000_3f1131c6,high,0.8818,0.3776,success,data/explainability_outputs/reports/EXPLAIN_20260608T164858Z0000_risk_f1cd2a0d.json,
+EXPLAIN_20260608T164910Z0000_risk_f1cd2a0d,2026-06-08T16:49:10+00:00,risk,RISK_20260608T163140Z0000_3f1131c6,high,0.8818,0.3776,success,data/explainability_outputs/reports/EXPLAIN_20260608T164910Z0000_risk_f1cd2a0d.json,
+EXPLAIN_20260608T164910Z0000_reasoning_6fdad14d,2026-06-08T16:49:10+00:00,reasoning,REASON_20260608T163112Z0000_3f1131c6,high,0.8818,0.3776,success,data/explainability_outputs/reports/EXPLAIN_20260608T164910Z0000_reasoning_6fdad14d.json,
+EXPLAIN_20260608T164947Z0000_reasoning_6fdad14d,2026-06-08T16:49:47+00:00,reasoning,REASON_20260608T163112Z0000_3f1131c6,high,0.8818,0.3776,success,data/explainability_outputs/reports/EXPLAIN_20260608T164947Z0000_reasoning_6fdad14d.json,
+EXPLAIN_20260608T164948Z0000_risk_f1cd2a0d,2026-06-08T16:49:48+00:00,risk,RISK_20260608T163140Z0000_3f1131c6,high,0.8818,0.3776,success,data/explainability_outputs/reports/EXPLAIN_20260608T164948Z0000_risk_f1cd2a0d.json,
+EXPLAIN_20260608T164949Z0000_risk_f1cd2a0d,2026-06-08T16:49:49+00:00,risk,RISK_20260608T163140Z0000_3f1131c6,high,0.8818,0.3776,success,data/explainability_outputs/reports/EXPLAIN_20260608T164949Z0000_risk_f1cd2a0d.json,
+EXPLAIN_20260608T165021Z0000_rag_c5844749,2026-06-08T16:50:21+00:00,rag,RAG_20260608T122607Z0000_0ed8a685,high,0.8999,0.2279,success,data/explainability_outputs/reports/EXPLAIN_20260608T165021Z0000_rag_c5844749.json,

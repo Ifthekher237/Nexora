@@ -1,0 +1,121 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# Local model files
+models/*
+!models/README.md
+*.gguf
+*.bin
+*.safetensors
+
+# Data files that may become large
+data/raw/*
+data/processed/*
+data/external/*
+!data/README.md
+!data/raw/.gitkeep
+!data/raw/sec/.gitkeep
+!data/raw/asx/.gitkeep
+!data/raw/rss/.gitkeep
+!data/raw/macro/.gitkeep
+!data/raw/local_uploads/.gitkeep
+!data/processed/.gitkeep
+!data/processed/documents/.gitkeep
+!data/processed/chunks/.gitkeep
+!data/processed/processing_metadata/
+!data/processed/processing_metadata/.gitkeep
+!data/processed/processing_metadata/processing_index.csv
+!data/processed/processing_metadata/processing_index.json
+!data/external/.gitkeep
+data/vector_store/faiss/*
+data/vector_store/chroma/*
+data/vector_store/metadata/*
+!data/vector_store/faiss/.gitkeep
+!data/vector_store/chroma/.gitkeep
+!data/vector_store/metadata/.gitkeep
+!data/vector_store/metadata/vector_index.csv
+!data/vector_store/metadata/vector_index.json
+!data/vector_store/metadata/retrieval_benchmark_results.json
+data/rag_outputs/responses/*
+data/rag_outputs/logs/*
+!data/rag_outputs/responses/.gitkeep
+!data/rag_outputs/logs/.gitkeep
+!data/rag_outputs/rag_response_index.csv
+!data/rag_outputs/rag_response_index.json
+data/reasoning_outputs/responses/*
+!data/reasoning_outputs/responses/.gitkeep
+!data/reasoning_outputs/reasoning_index.csv
+!data/reasoning_outputs/reasoning_index.json
+data/risk_outputs/responses/*
+!data/risk_outputs/responses/.gitkeep
+!data/risk_outputs/risk_index.csv
+!data/risk_outputs/risk_index.json
+data/explainability_outputs/reports/*
+!data/explainability_outputs/reports/.gitkeep
+!data/explainability_outputs/explainability_index.csv
+!data/explainability_outputs/explainability_index.json
+data/agent_outputs/runs/*
+!data/agent_outputs/runs/.gitkeep
+!data/agent_outputs/agent_run_index.csv
+!data/agent_outputs/agent_run_index.json
+data/performance_outputs/benchmark_runs/*
+data/performance_outputs/cache/*
+!data/performance_outputs/benchmark_runs/.gitkeep
+!data/performance_outputs/cache/.gitkeep
+!data/performance_outputs/performance_index.csv
+!data/performance_outputs/performance_index.json
+data/deployment_outputs/reports/*
+!data/deployment_outputs/reports/.gitkeep
+!data/deployment_outputs/deployment_readiness_index.csv
+!data/deployment_outputs/deployment_readiness_index.json
+
+# Streamlit
+.streamlit/
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+
+
+# Hugging Face / ML caches
+.cache/
+.cache*/
+huggingface/
+.huggingface/
+sentence_transformers/
+torch_cache/
+
+# Large vector/db files
+*.faiss
+*.index
+*.pkl
+*.sqlite
+*.sqlite3
+*.parquet
+*.arrow
+
+# Temporary files
+*.tmp
+*.bak

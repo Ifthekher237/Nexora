@@ -1,0 +1,32 @@
+processing:
+  processed_root: "data/processed"
+  documents_dir: "data/processed/documents"
+  chunks_dir: "data/processed/chunks"
+  metadata_dir: "data/processed/processing_metadata"
+  default_chunk_size_words: 350
+  default_chunk_overlap_words: 60
+  min_chunk_words: 80
+  max_chunk_words: 500
+  preserve_source_traceability: true
+  clean_text: true
+  language_default: "en"
+
+supported_file_types:
+  - ".pdf"
+  - ".txt"
+  - ".json"
+  - ".csv"
+  - ".md"
+
+classification:
+  enabled: true
+  simple_rule_based: true
+  categories:
+    - annual_report
+    - quarterly_report
+    - sec_filing_metadata
+    - rss_news
+    - earnings_transcript
+    - macro_dataset
+    - asx_announcement
+    - unknown

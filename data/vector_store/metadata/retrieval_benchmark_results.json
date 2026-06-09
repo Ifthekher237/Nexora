@@ -1,0 +1,41 @@
+[
+  {
+    "query": "interest rate risk",
+    "top_result_score": 0.6021754741668701,
+    "number_of_results": 5,
+    "result_chunk_ids": [
+      "PROC_SEC_AAPL_SD_2026-05-28_aaf2f1_d6d2e9_chunk_0000",
+      "PROC_RSS_YAHOO_FINANCE_NEWS_20260608_3a3c93_224b43_chunk_0000",
+      "PROC_SEC_AAPL_144_2026-05-27_266288_053eeb_chunk_0000",
+      "PROC_SEC_AAPL_4_2026-05-29_c498ec_0c6361_chunk_0000",
+      "PROC_RSS_YAHOO_FINANCE_NEWS_20260608_c53da3_26b40d_chunk_0000"
+    ],
+    "timestamp": "2026-06-08T11:57:49+00:00"
+  },
+  {
+    "query": "revenue pressure",
+    "top_result_score": 0.5490941405296326,
+    "number_of_results": 5,
+    "result_chunk_ids": [
+      "PROC_RSS_YAHOO_FINANCE_NEWS_20260608_c53da3_26b40d_chunk_0000",
+      "PROC_SEC_AAPL_144_2026-05-27_266288_053eeb_chunk_0000",
+      "PROC_SEC_AAPL_SD_2026-05-28_aaf2f1_d6d2e9_chunk_0000",
+      "PROC_SEC_AAPL_4_2026-05-29_c498ec_0c6361_chunk_0000",
+      "PROC_RSS_YAHOO_FINANCE_NEWS_20260608_3a3c93_224b43_chunk_0000"
+    ],
+    "timestamp": "2026-06-08T11:57:49+00:00"
+  },
+  {
+    "query": "oil price impact",
+    "top_result_score": 0.5886682271957397,
+    "number_of_results": 5,
+    "result_chunk_ids": [
+      "PROC_RSS_YAHOO_FINANCE_NEWS_20260608_3a3c93_224b43_chunk_0000",
+      "PROC_RSS_YAHOO_FINANCE_NEWS_20260608_c53da3_26b40d_chunk_0000",
+      "PROC_SEC_AAPL_144_2026-05-27_266288_053eeb_chunk_0000",
+      "PROC_SEC_AAPL_SD_2026-05-28_aaf2f1_d6d2e9_chunk_0000",
+      "PROC_SEC_AAPL_4_2026-05-29_c498ec_0c6361_chunk_0000"
+    ],
+    "timestamp": "2026-06-08T11:57:49+00:00"
+  }
+]

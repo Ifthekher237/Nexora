@@ -1,0 +1,5 @@
+benchmark_id,started_at,completed_at,total_runtime_ms,query_count,scenario_count,include_rag,include_reasoning,include_agents,status,report_path,error_message
+PERF_20260608T174225Z_8adea24c_b6534149,2026-06-08T17:42:25+00:00,2026-06-08T17:42:25+00:00,2.009,1,2,False,False,False,success,data/performance_outputs/benchmark_runs/PERF_20260608T174225Z_8adea24c_b6534149.json,
+PERF_20260608T174225Z_982ba237_7beaffbe,2026-06-08T17:42:25+00:00,2026-06-08T17:42:28+00:00,2197.575,2,2,True,False,False,partial_success,data/performance_outputs/benchmark_runs/PERF_20260608T174225Z_982ba237_7beaffbe.json,
+PERF_20260608T174326Z_8adea24c_c5b9dbfc,2026-06-08T17:43:26+00:00,2026-06-08T17:43:26+00:00,1.645,1,2,False,False,False,success,data/performance_outputs/benchmark_runs/PERF_20260608T174326Z_8adea24c_c5b9dbfc.json,
+PERF_20260608T174355Z_feb99e97_63f5a21a,2026-06-08T17:43:55+00:00,2026-06-08T17:43:57+00:00,1990.791,1,2,False,False,False,success,data/performance_outputs/benchmark_runs/PERF_20260608T174355Z_feb99e97_63f5a21a.json,

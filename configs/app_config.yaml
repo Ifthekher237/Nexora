@@ -1,0 +1,16 @@
+app:
+  name: Nexora
+  environment: local
+  local_first: true
+  debug: true
+
+backend:
+  host: 127.0.0.1
+  port: 8000
+
+frontend:
+  port: 8501
+
+logging:
+  level: INFO
+  log_to_file: true

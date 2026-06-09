@@ -1,0 +1,33 @@
+# Ollama model tags can vary slightly by local installation.
+# Run `python scripts/check_ollama.py` and `ollama list` to confirm installed names.
+llm_runtime:
+  primary: ollama
+  secondary: llama_cpp
+  local_first: true
+
+models:
+  default: llama3.1:8b
+  available:
+    - name: llama3.1:8b
+      label: Llama 3.1 8B
+      purpose: balanced local reasoning
+      recommended_for: general financial reasoning
+      quantized: true
+
+    - name: qwen2.5:7b
+      label: Qwen 2.5 7B
+      purpose: efficient reasoning and instruction following
+      recommended_for: local scenario analysis
+      quantized: true
+
+    - name: qwen2.5:14b
+      label: Qwen 2.5 14B
+      purpose: stronger reasoning if local memory allows
+      recommended_for: advanced scenario reasoning
+      quantized: true
+
+    - name: deepseek-r1:8b
+      label: DeepSeek R1 8B
+      purpose: analytical reasoning
+      recommended_for: structured reasoning tasks
+      quantized: true

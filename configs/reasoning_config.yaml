@@ -1,0 +1,38 @@
+reasoning:
+  default_top_k: 8
+  max_top_k: 12
+  min_evidence_score: 0.25
+  require_evidence: true
+  allow_plausible_but_uncertain_links: true
+  save_reasoning_outputs: true
+  output_dir: "data/reasoning_outputs/responses"
+  index_csv: "data/reasoning_outputs/reasoning_index.csv"
+  index_json: "data/reasoning_outputs/reasoning_index.json"
+
+llm:
+  runtime: "ollama"
+  default_model: "llama3.1:8b"
+  fallback_model: "mistral:7b"
+  temperature: 0.2
+  top_p: 0.9
+  max_tokens: 1200
+
+scenario_types:
+  - oil_price_shock
+  - interest_rate_change
+  - inflation_pressure
+  - supply_chain_disruption
+  - revenue_pressure
+  - debt_refinancing_risk
+  - liquidity_stress
+  - regulatory_change
+  - consumer_demand_shift
+  - currency_movement
+  - unknown
+
+reasoning_outputs:
+  include_causal_chain: true
+  include_evidence_map: true
+  include_uncertainty_notes: true
+  include_limitations: true
+  include_no_investment_advice_notice: true

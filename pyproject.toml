@@ -1,0 +1,10 @@
+[project]
+name = "nexora"
+version = "0.1.0"
+description = "Local-first Financial Scenario Intelligence Engine infrastructure."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["backend/tests"]

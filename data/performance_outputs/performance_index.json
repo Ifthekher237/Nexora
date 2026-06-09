@@ -1,0 +1,58 @@
+[
+  {
+    "benchmark_id": "PERF_20260608T174225Z_8adea24c_b6534149",
+    "started_at": "2026-06-08T17:42:25+00:00",
+    "completed_at": "2026-06-08T17:42:25+00:00",
+    "total_runtime_ms": "2.009",
+    "query_count": "1",
+    "scenario_count": "2",
+    "include_rag": "False",
+    "include_reasoning": "False",
+    "include_agents": "False",
+    "status": "success",
+    "report_path": "data/performance_outputs/benchmark_runs/PERF_20260608T174225Z_8adea24c_b6534149.json",
+    "error_message": ""
+  },
+  {
+    "benchmark_id": "PERF_20260608T174225Z_982ba237_7beaffbe",
+    "started_at": "2026-06-08T17:42:25+00:00",
+    "completed_at": "2026-06-08T17:42:28+00:00",
+    "total_runtime_ms": "2197.575",
+    "query_count": "2",
+    "scenario_count": "2",
+    "include_rag": "True",
+    "include_reasoning": "False",
+    "include_agents": "False",
+    "status": "partial_success",
+    "report_path": "data/performance_outputs/benchmark_runs/PERF_20260608T174225Z_982ba237_7beaffbe.json",
+    "error_message": ""
+  },
+  {
+    "benchmark_id": "PERF_20260608T174326Z_8adea24c_c5b9dbfc",
+    "started_at": "2026-06-08T17:43:26+00:00",
+    "completed_at": "2026-06-08T17:43:26+00:00",
+    "total_runtime_ms": "1.645",
+    "query_count": "1",
+    "scenario_count": "2",
+    "include_rag": "False",
+    "include_reasoning": "False",
+    "include_agents": "False",
+    "status": "success",
+    "report_path": "data/performance_outputs/benchmark_runs/PERF_20260608T174326Z_8adea24c_c5b9dbfc.json",
+    "error_message": ""
+  },
+  {
+    "benchmark_id": "PERF_20260608T174355Z_feb99e97_63f5a21a",
+    "started_at": "2026-06-08T17:43:55+00:00",
+    "completed_at": "2026-06-08T17:43:57+00:00",
+    "total_runtime_ms": "1990.791",
+    "query_count": "1",
+    "scenario_count": "2",
+    "include_rag": "False",
+    "include_reasoning": "False",
+    "include_agents": "False",
+    "status": "success",
+    "report_path": "data/performance_outputs/benchmark_runs/PERF_20260608T174355Z_feb99e97_63f5a21a.json",
+    "error_message": ""
+  }
+]

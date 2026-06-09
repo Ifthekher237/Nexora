@@ -1,0 +1,41 @@
+explainability:
+  require_source_traceability: true
+  require_confidence_explanation: true
+  require_limitations: true
+  save_reports: true
+  output_dir: "data/explainability_outputs/reports"
+  index_csv: "data/explainability_outputs/explainability_index.csv"
+  index_json: "data/explainability_outputs/explainability_index.json"
+
+evidence_ranking:
+  weights:
+    retrieval_score: 0.35
+    source_diversity: 0.20
+    document_relevance: 0.20
+    citation_usage: 0.15
+    recency: 0.10
+
+coverage:
+  min_sources_for_good_coverage: 3
+  min_unique_documents_for_good_coverage: 2
+  low_coverage_threshold: 0.35
+  medium_coverage_threshold: 0.65
+
+unsupported_claim_detection:
+  enabled: true
+  simple_rule_based: true
+  risky_phrases:
+    - "will definitely"
+    - "guaranteed"
+    - "stock will"
+    - "buy"
+    - "sell"
+    - "must invest"
+    - "certainly"
+    - "no risk"
+    - "risk-free"
+
+guardrails:
+  no_investment_advice: true
+  no_stock_prediction: true
+  require_evidence_reference_for_claims: true

@@ -1,0 +1,40 @@
+performance:
+  enabled: true
+  local_first: true
+  save_benchmark_results: true
+  output_dir: "data/performance_outputs/benchmark_runs"
+  index_csv: "data/performance_outputs/performance_index.csv"
+  index_json: "data/performance_outputs/performance_index.json"
+
+cache:
+  enabled: true
+  max_items: 500
+  default_ttl_seconds: 1800
+  retrieval_cache_ttl_seconds: 1800
+  metadata_cache_ttl_seconds: 1200
+  response_cache_ttl_seconds: 900
+  cache_dir: "data/performance_outputs/cache"
+  allow_disk_cache: true
+  clear_on_rebuild_index: true
+
+benchmark:
+  default_queries:
+    - "financial risk"
+    - "interest rate risk"
+    - "oil price impact"
+  default_scenarios:
+    - "What financial risks could appear if interest rates rise?"
+    - "What happens if oil prices increase by 25%?"
+  repeat_count: 1
+  top_k: 5
+
+resource_monitor:
+  enabled: true
+  use_psutil_if_available: true
+  track_cpu: true
+  track_memory: true
+
+streamlit:
+  reduce_repeated_status_calls: true
+  cache_status_seconds: 15
+  cache_history_seconds: 30

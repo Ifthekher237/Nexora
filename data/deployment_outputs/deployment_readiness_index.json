@@ -1,0 +1,57 @@
+[
+  {
+    "report_id": "DEPLOY_20260608T175818Z_deployment_readiness_d4635292_ee74fbe6",
+    "created_at": "2026-06-08T17:58:18+00:00",
+    "report_type": "deployment_readiness",
+    "readiness_score": "99.12",
+    "readiness_level": "enterprise_planning_ready",
+    "status": "success",
+    "json_path": "data/deployment_outputs/reports/DEPLOY_20260608T175818Z_deployment_readiness_d4635292_ee74fbe6.json",
+    "markdown_path": "",
+    "error_message": ""
+  },
+  {
+    "report_id": "DEPLOY_20260608T175818Z_final_project_report_1163a12c_585d62f7",
+    "created_at": "2026-06-08T17:58:18+00:00",
+    "report_type": "final_project_report",
+    "readiness_score": "99.12",
+    "readiness_level": "enterprise_planning_ready",
+    "status": "success",
+    "json_path": "data/deployment_outputs/reports/DEPLOY_20260608T175818Z_final_project_report_1163a12c_585d62f7.json",
+    "markdown_path": "data/deployment_outputs/reports/DEPLOY_20260608T175818Z_final_project_report_1163a12c_585d62f7.md",
+    "error_message": ""
+  },
+  {
+    "report_id": "DEPLOY_20260608T180040Z_deployment_readiness_1f5cda35_6d56c3f7",
+    "created_at": "2026-06-08T18:00:40+00:00",
+    "report_type": "deployment_readiness",
+    "readiness_score": "100.0",
+    "readiness_level": "enterprise_planning_ready",
+    "status": "success",
+    "json_path": "data/deployment_outputs/reports/DEPLOY_20260608T180040Z_deployment_readiness_1f5cda35_6d56c3f7.json",
+    "markdown_path": "",
+    "error_message": ""
+  },
+  {
+    "report_id": "DEPLOY_20260608T180112Z_final_project_report_1106b988_faddedd4",
+    "created_at": "2026-06-08T18:01:12+00:00",
+    "report_type": "final_project_report",
+    "readiness_score": "100.0",
+    "readiness_level": "enterprise_planning_ready",
+    "status": "success",
+    "json_path": "data/deployment_outputs/reports/DEPLOY_20260608T180112Z_final_project_report_1106b988_faddedd4.json",
+    "markdown_path": "data/deployment_outputs/reports/DEPLOY_20260608T180112Z_final_project_report_1106b988_faddedd4.md",
+    "error_message": ""
+  },
+  {
+    "report_id": "DEPLOY_20260608T180340Z_deployment_readiness_1b7b6dc8_7f1f3cc0",
+    "created_at": "2026-06-08T18:03:40+00:00",
+    "report_type": "deployment_readiness",
+    "readiness_score": "100.0",
+    "readiness_level": "enterprise_planning_ready",
+    "status": "success",
+    "json_path": "data/deployment_outputs/reports/DEPLOY_20260608T180340Z_deployment_readiness_1b7b6dc8_7f1f3cc0.json",
+    "markdown_path": "",
+    "error_message": ""
+  }
+]
