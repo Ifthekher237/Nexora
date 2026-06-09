@@ -82,5 +82,17 @@
     "status": "success",
     "report_path": "data/explainability_outputs/reports/EXPLAIN_20260608T165021Z0000_rag_c5844749.json",
     "error_message": ""
+  },
+  {
+    "explainability_id": "EXPLAIN_20260609T081157Z0000_risk_daa795ae",
+    "created_at": "2026-06-09T08:11:57+00:00",
+    "target_type": "risk",
+    "target_id": "RISK_20260609T081148Z0000_3f1131c6",
+    "coverage_level": "high",
+    "coverage_score": "0.8865",
+    "explainability_score": "0.1859",
+    "status": "success",
+    "report_path": "data/explainability_outputs/reports/EXPLAIN_20260609T081157Z0000_risk_daa795ae.json",
+    "error_message": ""
   }
 ]

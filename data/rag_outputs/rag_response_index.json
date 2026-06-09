@@ -115,5 +115,31 @@
     "status": "error",
     "response_path": "data/rag_outputs/responses/RAG_20260608T174228Z0000_9af934ab.json",
     "error_message": "Ollama is not running at http://localhost:11434. Start it with `ollama serve` or open the Ollama app, then try again."
+  },
+  {
+    "response_id": "RAG_20260609T081037Z0000_12f204c9",
+    "created_at": "2026-06-09T08:10:37+00:00",
+    "question": "What financial risks are mentioned in the documents?",
+    "model": "llama3.1:8b",
+    "ticker": "",
+    "confidence_level": "medium",
+    "confidence_score": "0.69",
+    "source_count": "5",
+    "status": "success",
+    "response_path": "data/rag_outputs/responses/RAG_20260609T081037Z0000_12f204c9.json",
+    "error_message": ""
+  },
+  {
+    "response_id": "RAG_20260609T083528Z0000_0ed8a685",
+    "created_at": "2026-06-09T08:35:28+00:00",
+    "question": "What financial risks are mentioned in the available documents?",
+    "model": "llama3.1:8b",
+    "ticker": "",
+    "confidence_level": "medium",
+    "confidence_score": "0.69",
+    "source_count": "5",
+    "status": "success",
+    "response_path": "data/rag_outputs/responses/RAG_20260609T083528Z0000_0ed8a685.json",
+    "error_message": ""
   }
 ]

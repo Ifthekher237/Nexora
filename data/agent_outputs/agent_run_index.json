@@ -82,5 +82,19 @@
     "status": "success",
     "response_path": "data/agent_outputs/runs/AGENT_RUN_20260608T172550Z0000_3f1131c6_dc4fc57e.json",
     "error_message": ""
+  },
+  {
+    "agent_run_id": "AGENT_RUN_20260609T081208Z_3f1131c6_339062ae",
+    "created_at": "2026-06-09T08:12:08+00:00",
+    "scenario": "What financial risks could appear if interest rates rise?",
+    "company_name": "",
+    "ticker": "",
+    "market": "",
+    "agents_run": "macroeconomic_agent,company_analysis_agent,sector_analysis_agent,news_intelligence_agent,risk_propagation_agent",
+    "overall_confidence_level": "medium",
+    "overall_confidence_score": "0.5821",
+    "status": "success",
+    "response_path": "data/agent_outputs/runs/AGENT_RUN_20260609T081208Z_3f1131c6_339062ae.json",
+    "error_message": ""
   }
 ]
